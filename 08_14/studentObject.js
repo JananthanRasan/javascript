@@ -34,12 +34,10 @@ let student = [
     }
 ];
 for (let x of student) {
-    for (let x of student) {
-        let eng = x.subjects.english;
-        let math = x.subjects.maths;
-        let ict = x.subjects.ict;
-        let total = eng + math + ict;
-        let avg = total / 3;
-        
+    let eng = x.subjects.english;
+    let math = x.subjects.maths;
+    let ict = x.subjects.ict;
+    let total = eng + math + ict;
+    let avg = total / 3;
     console.log(x.firstname, x.lastname, x.age, x.gender, eng, math, ict, total, avg);
 }
